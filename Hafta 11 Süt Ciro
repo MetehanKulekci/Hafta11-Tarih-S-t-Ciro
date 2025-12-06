@@ -1,0 +1,7 @@
+SELECT        SUM(sut_lt) * 40 AS Güncel_Fiyatlandırma
+FROM            alinan_sut
+
+                                                                                         Metehan Külekçi B2380.010115
+                                   
+SELECT        SUM(sut_lt) * 40 / DATEDIFF(DAY, '20140213', '20161225') AS CİRO
+FROM            alinan_sut   
